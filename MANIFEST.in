@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include loan_appraiser *.css
+recursive-include loan_appraiser *.csv
+recursive-include loan_appraiser *.html
+recursive-include loan_appraiser *.ico
+recursive-include loan_appraiser *.js
+recursive-include loan_appraiser *.json
+recursive-include loan_appraiser *.md
+recursive-include loan_appraiser *.png
+recursive-include loan_appraiser *.py
+recursive-include loan_appraiser *.svg
+recursive-include loan_appraiser *.txt
+recursive-exclude loan_appraiser *.pyc
