@@ -1,6 +1,6 @@
 ## Loan Appraiser
 
-Credit Scoring App
+Credit Scoring
 
 #### License
 
