@@ -13,7 +13,9 @@
   "national_id",
   "address_section",
   "postal_address",
-  "county"
+  "county",
+  "attachments_section",
+  "id_upload"
  ],
  "fields": [
   {
@@ -65,15 +67,25 @@
    "fieldname": "county",
    "fieldtype": "Select",
    "label": "County",
-   "options": "Nairobi\nMombasa\nKisumu",
+   "options": "Nairobi\nMombasa\nKisumu\nBungoma\nBomet",
    "reqd": 1
   },
   {
    "fieldname": "column_break_3",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attachments_section",
+   "fieldtype": "Section Break",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "id_upload",
+   "fieldtype": "Attach Image",
+   "label": "Upload Photo of ID"
   }
  ],
- "modified": "2019-10-11 12:27:47.441125",
+ "modified": "2019-10-28 19:01:03.011382",
  "modified_by": "Administrator",
  "module": "Registry",
  "name": "Customer",

@@ -4,3 +4,4 @@
 *.swp
 tags
 loan_appraiser/docs/current
+loan_appraiser/registry/doctype/customer/getCustomer.py
